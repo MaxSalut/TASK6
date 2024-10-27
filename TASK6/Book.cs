@@ -15,6 +15,7 @@ namespace TASK6
         [JsonPropertyName("Title")]
         public string Name { get; set; }
         public PublishingHouse PublishingHouse { get; set; }
+        
 
        
     }

@@ -19,7 +19,7 @@ namespace TASK6
 
             foreach (var book in books)
             {
-                Console.WriteLine($"Назва: {book.Name}, Видавництво: {book.PublishingHouse.Name}");
+                Console.WriteLine($"Назва: {book.Name}\nВидавництво: {book.PublishingHouse.Name}\nАдреса: {book.PublishingHouse.Adress}\n");
             }
 
             var options = new JsonSerializerOptions { Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,  WriteIndented = true };
